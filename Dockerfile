@@ -2,6 +2,7 @@ FROM ruby:2.5.1-alpine
 MAINTAINER Strobo <info@strobo.io>
 RUN apk add --no-cache \
         git \
+        docker \
         openssh-client \
         ca-certificates \
         curl \
