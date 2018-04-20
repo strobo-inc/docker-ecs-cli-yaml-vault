@@ -17,4 +17,4 @@ RUN apk add --no-cache \
     curl -o /usr/bin/ecs-cli https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-linux-amd64-v1.4.2 && \
     chmod +x /usr/bin/ecs-cli
 
-RUN gem install yaml-vault && gem install aws-sdk-kms
+RUN gem install yaml_vault && gem install aws-sdk-kms
