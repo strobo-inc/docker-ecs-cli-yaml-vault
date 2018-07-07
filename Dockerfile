@@ -17,7 +17,7 @@ RUN apk add --no-cache \
     curl -o /usr/bin/ecs-cli https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-linux-amd64-v1.4.2 && \
     chmod +x /usr/bin/ecs-cli && \
     # ecs_task_executor
-    wget -O /usr/bin/ecs_task_executor https://github.com/kenjiszk/ecs_task_executor/releases/download/1.0/ecs_task_executor && \
+    wget -O /usr/bin/ecs_task_executor https://github.com/kenjiszk/ecs_task_executor/releases/download/1.1/ecs_task_executor && \
     chmod +x /usr/bin/ecs_task_executor
 
 
